@@ -1,0 +1,13 @@
+## Here are some steps followed to design own calculator
+
+1. Import the necessary modules, such as math, sys, and pytest.
+2. Define a class called Calculator that will contain all the methods and attributes of your calculator. You can use the __init__ method to initialize some variables, such as the history list and the current result.
+3. Define a static method called validate that will check if the input is a valid number or not. You can use the isinstance function to do this. If the input is not a number, you can raise a ValueError exception.
+4. Define a class method called add that will take two numbers as arguments and return their sum. You can use the + operator to do this. You can also append the calculation to the history list and update the current result.
+5. Define similar class methods for subtract, multiply, and divide. For the divide method, you need to check if the second argument is zero or not. If it is zero, you can raise a ZeroDivisionError exception.
+6. Define a class method called get_history that will return the history list as a string. You can use the join method to do this.
+7. Define a class method called get_result that will return the current result as a float.
+8. Define a class method called clear that will reset the history list and the current result to empty and zero, respectively.
+9. Define a function called main that will create an instance of the Calculator class and prompt the user for input. You can use a while loop and a try-except block to handle the input and the exceptions. You can also use the input and print functions to interact with the user. You can use the eval function to evaluate the user input as a Python expression. You can also use the quit and clear commands to exit the program or clear the calculator.
+10. Define a function called test_calculator that will use the pytest module to test the functionality of your calculator. You can use the assert statement to check if the expected output matches the actual output. You can also use the pytest.raises context manager to test if the exceptions are raised correctly. You can use the @pytest.fixture decorator to create a fixture that will provide a calculator instance for each test case.
+11. Write the code for your calculator in a file called calculator.py and save it. You can run your program by typing python calculator.py in the terminal. You can run your tests by typing pytest calculator.py in the terminal.
