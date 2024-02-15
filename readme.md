@@ -1,6 +1,6 @@
 ## Here are some steps followed to design own calculator
 
-1. Import the necessary modules, such as math, sys, and pytest.
+1. Import the necessary modules, such as math, sys, and pytest along with requirments.txt
 2. Define a class called Calculator that will contain all the methods and attributes of your calculator. You can use the __init__ method to initialize some variables, such as the history list and the current result.
 3. Define a static method called validate that will check if the input is a valid number or not. You can use the isinstance function to do this. If the input is not a number, you can raise a ValueError exception.
 4. Define a class method called add that will take two numbers as arguments and return their sum. You can use the + operator to do this. You can also append the calculation to the history list and update the current result.
